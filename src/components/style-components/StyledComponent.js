@@ -18,11 +18,11 @@ export const DivConversa = styled.div` //styled component da caixa que aparecem 
 
 `
 
-
 export const DivTexto = styled.div` // caixa de texto com os inputs e botão enviar 
 
   background-color: #A2FAAD;
   border-radius: 10px ;
+  align-content: center;
   padding: 1%;
   margin: 3%;
   
@@ -71,7 +71,13 @@ export const ButtonEnviar = styled.button`
     width: 7%;
     background-color: #00C0FA;
 `
-
+export const DivTodo = styled.div`
+ background-color: red;
+ display: block;
+ align-items: center;
+ width: 200vh;
+ height: 100vh;
+`
 
 
 

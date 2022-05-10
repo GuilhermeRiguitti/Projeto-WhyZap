@@ -1,5 +1,5 @@
 import React from 'react'
-import { DivMensagem, Usuario, MsgEnviada, DivMinhaMensagem } from './style-components/StyledComponent';
+import { DivMensagem, Usuario, MsgEnviada, DivMinhaMensagem, InputMsg } from './style-components/StyledComponent';
 const Mensagem = (props) => { //component mensagem passada por props para o app.js
     if(props.nome.toUpperCase() === 'EU' ) { //se a mensagem for enviada pelo usuario eu irá para o lado direito 
     return (
@@ -21,8 +21,7 @@ const Mensagem = (props) => { //component mensagem passada por props para o app.
                     {props.mensagem}
                 </MsgEnviada>
             </DivMensagem>
-        )
-        
+        )    
     }  
 }
      
